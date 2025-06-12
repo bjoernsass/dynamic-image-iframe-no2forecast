@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NO₂ Forecast</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    .desktop-image {
+      display: block;
+    }
+
+    .mobile-link {
+      display: none;
+      padding: 1em;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      .desktop-image {
+        display: none;
+      }
+
+      .mobile-link {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <img class="desktop-image" src="https://hcdc.hereon.de/images/urbanaqf/Forecast/plot3day_NO2.png" alt="NO₂ Forecast" />
+
+  <div class="mobile-link">
+    <a href="https://hcdc.hereon.de/images/urbanaqf/Forecast/plot3day_NO2.png" target="_blank" rel="noopener noreferrer">
+      View today's NO₂ Forecast Image
+    </a>
+  </div>
+</body>
+</html>
